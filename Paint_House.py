@@ -1,4 +1,5 @@
 ## Problem ##
+"""
 You have N houses, and each house can be painted with one of three colors:
 Red
 Green
@@ -12,6 +13,7 @@ No two adjacent houses can have the same color.
 The goal is to minimize the total cost of painting all house
 
 ## SOLUTION ##
+"""
 class Solution:
     def distinctColoring (self, N, r, g, b):
         for i in range(1,N):
